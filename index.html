@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>My Gallery By Vijay Mourya(Mourya World)</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1" />
+	<link rel="stylesheet" href="css/MyGallery.css" />
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/MyGallery.js"></script>
+	<script>
+			/* My Gallery OPTIONS */
+			gall_config =  {
+				gallery : "gallery", 	// Gallery ID (default is my-gallery)
+				shape : "round-square", 	// Thumbnails shape 'square/cirlce/round-square/mix'( Default is Square)
+				rotate : true ,	// Rotate thumbnails -> true/false (default is false)
+				rotateto : 'right-left', // Rotate thumbnails left/right/left-right/right-left (default is left if rotate is true)
+				thumbs_inner_border : true , // Define thumbnails inner border -> true/false (default is false)
+				thumbs_inner_border_color : '#000', // Define thumbnails inner border color like #ffffff(default is #ffffff)
+				thumbs_inner_border_hover : true , // Define thumbnails inner border hover -> true/false (default is false)
+				thumbs_inner_border_hover_color : '#f90', // Define thumbnails inner border hover color like #ffffff(default is #ffffff)
+				thumbs_outer_border : true , // Define thumbnails outer border -> true/false (default is false)
+				thumbs_outer_border_color : '#fff', // Define thumbnails outer border color like #000000 (default is #000000)
+				thumbs_outer_border_hover : true , // Define thumbnails outer border hover -> true/false (default is false)
+				thumbs_outer_border_hover_color : '#000', // Define thumbnails inner border hover color like #ffffff(default is #0f0)				
+				popupshape : '', // Popup shape squre/cirlce (Default is square)
+				popup_border_color : "#ff4500", // Define popup border color code like #000000,transparent (default is black)
+				caption : true, // True/False to show or hide image caption (default is true)
+				caption_postion :'',  // Set caption position Top/Bottom (Default is bottom)
+				caption_background_color : '',  // Set caption background (Default is #000)
+				caption_background_opacity : '',	// Set level of transparency (Default is 0.5)
+				caption_text_color : '', // Define font color of caption (Default is #fff)
+				caption_text_align : '' , // Define alignment of text of caption 'Left/Right/Center' (Default is Center)
+			};window.setting=gall_config;
+	</script>
+
+</head>
+<style>
+.title{background:#999; color:#fff; text-align:center;width:100%; float:left;}
+.title a{color:#ff0;}
+</style>
+<body>
+	<span class="title">My Gallery Version 2.0.0 ( Developed by Vijay Mourya ) <a href="mygallery-v2.zip">Download</a></span>
+	<div class="container">
+		<div id="gallery" class="my-gallery">
+			<span><img src="img/thumbs/pic.jpg" alt="image one"	title="Caption 1" 	large-img="img/GalleryPics/pic.jpg"/></span>
+			<span><img src="img/thumbs/pic1.jpg" alt="image two"  	title="Caption 2"	large-img="img/GalleryPics/pic1.jpg"/></span>
+			<span><img src="img/thumbs/pic2.jpg" alt="image three"	title="Caption 3"	large-img="img/GalleryPics/pic2.jpg"/></span>
+			<span><img src="img/thumbs/pic4.jpg" alt="image five"	title="Caption 5"	large-img="img/GalleryPics/pic4.jpg"/></span>
+			<span><img src="img/thumbs/pic5.jpg" alt="image six"	title="Caption 6"	large-img="img/GalleryPics/pic5.jpg"/></span>
+			<span><img src="img/thumbs/pic6.jpg" alt="image five"	title="Caption 7"	large-img="img/GalleryPics/pic6.jpg"/></span>
+			<span><img src="img/thumbs/pic7.jpg" alt="image six"	title="Caption 8"	large-img="img/GalleryPics/pic7.jpg"/></span>
+			<span><img src="img/thumbs/pic8.jpg" alt="image five"	title="Caption 9"	large-img="img/GalleryPics/pic8.jpg"/></span>
+			<span><img src="img/thumbs/pic9.jpg" alt="image six"	title="Caption 10"	large-img="img/GalleryPics/pic9.jpg"/></span>
+			<span><img src="img/thumbs/pic10.jpg" alt="image six"	title="Caption 11"	large-img="img/GalleryPics/pic10.jpg"/></span>
+			<span><img src="img/thumbs/pic11.jpg" alt="image six"	title="Caption 12"	large-img="img/GalleryPics/pic11.jpg"/></span>
+			<span><img src="img/thumbs/pic12.jpg" alt="image six"	title="Caption 13"	large-img="img/GalleryPics/pic12.jpg"/></span>
+			<span><img src="img/thumbs/pic13.jpg" alt="image six"	title="Caption 14"	large-img="img/GalleryPics/pic13.jpg"/></span>
+			<span><img src="img/thumbs/pic14.jpg" alt="image six"	title="Caption 15"	large-img="img/GalleryPics/pic14.jpg"/></span>
+			<span><img src="img/thumbs/pic15.jpg" alt="image six"	title="Caption 16"	large-img="img/GalleryPics/pic15.jpg"/></span>
+			<span><img src="img/thumbs/pic16.jpg" alt="image six"	title="Caption 17"	large-img="img/GalleryPics/pic16.jpg"/></span>
+		</div>
+	</div>
+</body>
+</html>
